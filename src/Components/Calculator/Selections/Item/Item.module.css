@@ -60,10 +60,17 @@
   }
   .ConvertedValue {
     display: flex;
-    float: right;
-    width: 35%;
-    margin-right: 8%;
+    width: 72%;
+   
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 50px;
   }
+  .WaitingLeft {
+    padding-top: 10px;
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+
+  }
+  
 }

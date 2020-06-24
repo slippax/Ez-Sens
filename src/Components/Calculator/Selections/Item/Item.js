@@ -5,7 +5,7 @@ import classes from "./Item.module.css";
 
 import TextField from "@material-ui/core/TextField";
 
-import ClimbingBoxLadder from "react-spinners/SkewLoader";
+import ClimbingBoxLadder from "react-spinners/PacmanLoader";
 
 import { Wave } from "react-animated-text";
 
@@ -38,10 +38,10 @@ const Item = () => {
 
   const showConverted = () => {
     if (loading) {
-      return <Wave iterations={1} text="Waiting..." />;
+      return <Wave iterations={1} text="Sensitivity: Waiting..." />;
     }
     if (!loading) {
-      return <Wave iterations={1} text={convertedValue.toFixed(3)} />;
+      return <Wave iterations={1} text={'Sensitivity: ' + convertedValue.toFixed(3)} />;
     }
   };
 
