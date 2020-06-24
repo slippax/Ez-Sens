@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "29c42562779ff159fce895ec16279a21",
+    "revision": "ad8ee347b0850ef5d2b249f8eab7f288",
     "url": "/Ez-Sens/index.html"
   },
   {
-    "revision": "22970da8f65f81bb8127",
+    "revision": "29537ee76a00086fa710",
     "url": "/Ez-Sens/static/css/main.e7eda5ab.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Ez-Sens/static/js/2.c495553c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22970da8f65f81bb8127",
-    "url": "/Ez-Sens/static/js/main.8ba82a91.chunk.js"
+    "revision": "29537ee76a00086fa710",
+    "url": "/Ez-Sens/static/js/main.e2359b13.chunk.js"
   },
   {
     "revision": "43c371e91457847b1c8d",
