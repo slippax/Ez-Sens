@@ -112,9 +112,6 @@ const Item = () => {
         Select Game (to):
         <Select onChange={handleChangeTo} options={options} />
       </div>
-      <div className={classes.WaitingLeft}>
-        <ClimbingBoxLadder size={10} color={"gray"} loading={loading} />
-      </div>
       <div>
         <div className={classes.SensDpiFrom}>
           <div>{gameOne.label} Sensitivity & DPI:</div>
@@ -135,6 +132,9 @@ const Item = () => {
             />
           </div>
         </div>
+      </div>
+      <div className={classes.WaitingLeft}>
+        <ClimbingBoxLadder size={10} color={"gray"} loading={loading} />
       </div>
       <div className={classes.ConvertedValue}>{showConverted()}</div>
     </div>
