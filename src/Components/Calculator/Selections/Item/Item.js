@@ -38,7 +38,7 @@ const Item = () => {
 
   const showConverted = () => {
     if (loading) {
-      return <Wave iterations={1} text="Sensitivity: Waiting..." />;
+      return <Wave iterations={1} effect="stretch" effectChange={1.4} text="Sensitivity: Waiting..." />;
     }
     if (!loading) {
       return (

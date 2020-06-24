@@ -33,6 +33,38 @@
   padding-top: 10px;
 }
 
+
+@media screen and (max-width: 700px) {
+  .ConvertedValue{
+    padding-top: 200px;
+    padding-left: 30%;
+  }
+  .From {
+    float: left;
+    width: 42%;
+    margin-left: 6%;
+    font-size: 17px;
+  }
+  
+  .To {
+    float: right;
+    width: 42%;
+    margin-right: 6%;
+  
+    font-size: 17px;
+  }
+
+  .SensDpiFrom {
+    padding-top: 2%;
+    float: left;
+    width: 35%;
+    margin-left: 6%;
+    font-size: 17px;
+  }
+}
+
+
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .From {
     float: left;
