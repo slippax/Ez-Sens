@@ -30,18 +30,10 @@
 }
 
 .WaitingLeft {
-  padding-top: 15px;
+  padding-top: 10px;
   display: flex;
   float: right;
-  width: 40%;
-  font-size: 20px;
-}
-
-.WaitingRight {
-  padding-top: 15px;
-  display: flex;
-  float: right;
-  width: 50%;
+  width: 37%;
   font-size: 20px;
 }
 
@@ -74,5 +66,4 @@
     font-size: 20px;
     padding-top: 10px;
   }
-
 }
