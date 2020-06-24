@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Ez-Sens/static/css/main.7144e5d6.chunk.css",
-    "main.js": "/Ez-Sens/static/js/main.85e2dce7.chunk.js",
-    "main.js.map": "/Ez-Sens/static/js/main.85e2dce7.chunk.js.map",
+    "main.css": "/Ez-Sens/static/css/main.239785e0.chunk.css",
+    "main.js": "/Ez-Sens/static/js/main.f58b01e1.chunk.js",
+    "main.js.map": "/Ez-Sens/static/js/main.f58b01e1.chunk.js.map",
     "runtime-main.js": "/Ez-Sens/static/js/runtime-main.0379e7d3.js",
     "runtime-main.js.map": "/Ez-Sens/static/js/runtime-main.0379e7d3.js.map",
     "static/js/2.62d9904f.chunk.js": "/Ez-Sens/static/js/2.62d9904f.chunk.js",
     "static/js/2.62d9904f.chunk.js.map": "/Ez-Sens/static/js/2.62d9904f.chunk.js.map",
     "index.html": "/Ez-Sens/index.html",
-    "precache-manifest.d98d28ca19414f1955bc01fb5a35d7e1.js": "/Ez-Sens/precache-manifest.d98d28ca19414f1955bc01fb5a35d7e1.js",
+    "precache-manifest.abf0141f2a9b270961e006561331a116.js": "/Ez-Sens/precache-manifest.abf0141f2a9b270961e006561331a116.js",
     "service-worker.js": "/Ez-Sens/service-worker.js",
-    "static/css/main.7144e5d6.chunk.css.map": "/Ez-Sens/static/css/main.7144e5d6.chunk.css.map",
+    "static/css/main.239785e0.chunk.css.map": "/Ez-Sens/static/css/main.239785e0.chunk.css.map",
     "static/js/2.62d9904f.chunk.js.LICENSE.txt": "/Ez-Sens/static/js/2.62d9904f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0379e7d3.js",
     "static/js/2.62d9904f.chunk.js",
-    "static/css/main.7144e5d6.chunk.css",
-    "static/js/main.85e2dce7.chunk.js"
+    "static/css/main.239785e0.chunk.css",
+    "static/js/main.f58b01e1.chunk.js"
   ]
 }
