@@ -47,14 +47,14 @@ const Item = () => {
 
   const handleChangeFrom = (selectionOne) => {
     setGameOne(selectionOne);
-    if (loading && gameTwo !== "game") {
+    if (loading) {
       toggle();
     }
   };
 
   const handleChangeTo = (selectionTwo) => {
     setGameTwo(selectionTwo);
-    if (loading && gameOne !== "game") {
+    if (loading) {
       toggle();
     }
   };
