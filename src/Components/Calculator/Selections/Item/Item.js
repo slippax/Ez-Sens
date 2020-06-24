@@ -38,10 +38,10 @@ const Item = () => {
 
   const showConverted = () => {
     if (loading) {
-      return <Wave iterations="1" text="Waiting..." />;
+      return <Wave iterations={1} text="Waiting..." />;
     }
     if (!loading) {
-      return <Wave iterations="1" text={convertedValue.toFixed(3)} />;
+      return <Wave iterations={1} text={convertedValue.toFixed(3)} />;
     }
   };
 

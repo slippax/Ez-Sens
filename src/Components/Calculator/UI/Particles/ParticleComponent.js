@@ -15,7 +15,7 @@ export default () => (
       params={{
         particles: {
           number: {
-            value: 20,
+            value: 10,
           },
           size: {
             value: 2,
@@ -25,14 +25,6 @@ export default () => (
           },
           line_linked: {
             enable: false,
-          },
-        },
-        interactivity: {
-          events: {
-            onhover: {
-              enable: true,
-              mode: "repulse",
-            },
           },
         },
       }}
