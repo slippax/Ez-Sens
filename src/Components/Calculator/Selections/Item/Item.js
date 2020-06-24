@@ -108,11 +108,11 @@ const Item = () => {
   return (
     <div>
       <div className={classes.From}>
-        Select Game (from): {gameOne.label}
+        Select Game (from):
         <Select onChange={handleChangeFrom} options={options} />
       </div>
       <div className={classes.To}>
-        Select Game (to): {gameTwo.label}
+        Select Game (to):
         <Select onChange={handleChangeTo} options={options} />
       </div>
       <div className={classes.WaitingLeft}>
