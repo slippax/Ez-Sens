@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Ez-Sens/static/css/main.e7755c5d.chunk.css",
+    "main.css": "/Ez-Sens/static/css/main.4a46124b.chunk.css",
     "main.js": "/Ez-Sens/static/js/main.21aa03be.chunk.js",
     "main.js.map": "/Ez-Sens/static/js/main.21aa03be.chunk.js.map",
     "runtime-main.js": "/Ez-Sens/static/js/runtime-main.0379e7d3.js",
@@ -8,15 +8,15 @@
     "static/js/2.1a6dd365.chunk.js": "/Ez-Sens/static/js/2.1a6dd365.chunk.js",
     "static/js/2.1a6dd365.chunk.js.map": "/Ez-Sens/static/js/2.1a6dd365.chunk.js.map",
     "index.html": "/Ez-Sens/index.html",
-    "precache-manifest.568ae34f850c20b6f09730a3a6350554.js": "/Ez-Sens/precache-manifest.568ae34f850c20b6f09730a3a6350554.js",
+    "precache-manifest.b5b0bbd4cad6ee2bc1aa60085957d9ad.js": "/Ez-Sens/precache-manifest.b5b0bbd4cad6ee2bc1aa60085957d9ad.js",
     "service-worker.js": "/Ez-Sens/service-worker.js",
-    "static/css/main.e7755c5d.chunk.css.map": "/Ez-Sens/static/css/main.e7755c5d.chunk.css.map",
+    "static/css/main.4a46124b.chunk.css.map": "/Ez-Sens/static/css/main.4a46124b.chunk.css.map",
     "static/js/2.1a6dd365.chunk.js.LICENSE.txt": "/Ez-Sens/static/js/2.1a6dd365.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0379e7d3.js",
     "static/js/2.1a6dd365.chunk.js",
-    "static/css/main.e7755c5d.chunk.css",
+    "static/css/main.4a46124b.chunk.css",
     "static/js/main.21aa03be.chunk.js"
   ]
 }

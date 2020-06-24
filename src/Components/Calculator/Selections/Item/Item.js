@@ -47,9 +47,6 @@ const Item = () => {
 
   const handleChangeFrom = (selectionOne) => {
     setGameOne(selectionOne);
-    if (loading) {
-      toggle();
-    }
   };
 
   const handleChangeTo = (selectionTwo) => {
@@ -119,9 +116,6 @@ const Item = () => {
         <ClimbingBoxLadder size={10} color={"gray"} loading={loading} />
       </div>
       <div>
-        <div className={classes.WaitingRight}>
-          <ClimbingBoxLadder size={10} color={"gray"} loading={loading} />
-        </div>
         <div className={classes.SensDpiFrom}>
           <div>{gameOne.label} Sensitivity & DPI:</div>
           <div>

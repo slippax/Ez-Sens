@@ -18,10 +18,8 @@
   float: left;
   width: 30%;
   margin-left: 10%;
-      font-size: 25px;
-
+  font-size: 25px;
 }
-
 
 .ConvertedValue {
   display: flex;
@@ -29,7 +27,6 @@
   width: 40%;
   font-size: 20px;
   padding-top: 10px;
-
 }
 
 .WaitingLeft {
@@ -48,37 +45,34 @@
   font-size: 20px;
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-    .From {
-      float: left;
-      width: 35%;
-      margin-left: 9%;
-      font-size: 20px;
-    }
-    .To {
-      float: right;
-      width: 35%;
-      margin-right: 9%;
-    
-      font-size: 20px;
-    }
-    .SensDpiFrom {
-      padding-top: 3%;
-      float: left;
-      width: 35%;
-      margin-left: 10%;
-      font-size: 20px;
-    
-    }
-    .ConvertedValue {
-      display: flex;
-      float: right;
-      width: 43%;
-      font-size: 20px;
-      padding-top: 10px;
-    }
-    
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .From {
+    float: left;
+    width: 35%;
+    margin-left: 9%;
+    font-size: 20px;
   }
+  .To {
+    float: right;
+    width: 35%;
+    margin-right: 9%;
+
+    font-size: 20px;
+  }
+  .SensDpiFrom {
+    padding-top: 3%;
+    float: left;
+    width: 35%;
+    margin-left: 10%;
+    font-size: 20px;
+  }
+  .ConvertedValue {
+    display: flex;
+    float: right;
+    width: 35%;
+    margin-right: 8%;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+}
