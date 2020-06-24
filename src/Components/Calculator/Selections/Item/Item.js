@@ -38,10 +38,10 @@ const Item = () => {
 
   const showConverted = () => {
     if (loading) {
-      return <Wave iterations={1} text=" Waiting..." />;
+      return <Wave iterations={1} text="Sensitivity: Waiting..." />;
     }
     if (!loading) {
-      return <Wave iterations={1} text={' ' + convertedValue.toFixed(3)} />;
+      return <Wave iterations={1} text={'Sensitivity: ' + convertedValue.toFixed(3)} />;
     }
   };
 
@@ -134,7 +134,7 @@ const Item = () => {
         </div>
       </div>
 
-      <div className={classes.ConvertedValue}>Sensitivity: {showConverted()}</div>
+      <div className={classes.ConvertedValue}>{showConverted()}</div>
       <div className={classes.WaitingLeft}>
         <ClimbingBoxLadder size={10} color={"gray"} loading={loading} />
       </div>

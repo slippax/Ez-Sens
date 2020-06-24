@@ -22,20 +22,15 @@
 }
 
 .ConvertedValue {
-  display: flex;
-  width: 100%;
-  font-size: 20px;
-  padding-top: 30px;
+  padding-top: 300px;
   padding-left: 40%;
+  font-size: 20px;
 }
 
 .WaitingLeft {
-  padding-top: 20px;
-  padding-left: 50%;
-  display: flex;
-  width: 100%;
   font-size: 20px;
-  padding-bottom: 10%;
+  padding-left: 50%;
+  padding-top: 10px;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
@@ -60,18 +55,15 @@
     font-size: 20px;
   }
   .ConvertedValue {
-    display: flex;
-    width: 70%;
-   
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 300px;
+    padding-left: 120px;
   }
   .WaitingLeft {
     padding-top: 10px;
-    display: flex;
-    width: 50%;
-    font-size: 20px;
 
+    padding-left: 180px;
+
+    font-size: 20px;
   }
-  
 }
