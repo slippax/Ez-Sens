@@ -41,7 +41,12 @@ const Item = () => {
       return <Wave iterations={1} text="Sensitivity: Waiting..." />;
     }
     if (!loading) {
-      return <Wave iterations={1} text={'Sensitivity: ' + convertedValue.toFixed(3)} />;
+      return (
+        <Wave
+          iterations={1}
+          text={"Sensitivity: " + convertedValue.toFixed(3)}
+        />
+      );
     }
   };
 
