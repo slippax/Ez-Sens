@@ -23,18 +23,19 @@
 
 .ConvertedValue {
   display: flex;
-  float: right;
-  width: 40%;
+  width: 100%;
   font-size: 20px;
-  padding-top: 10px;
+  padding-top: 30px;
+  padding-left: 40%;
 }
 
 .WaitingLeft {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-left: 50%;
   display: flex;
-  float: right;
-  width: 37%;
+  width: 100%;
   font-size: 20px;
+  padding-bottom: 10%;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
